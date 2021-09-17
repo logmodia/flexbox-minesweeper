@@ -4,6 +4,8 @@
 
 The goal of this project is to create a web page that reproduces the graphical interface of the minesweeper game.
 
+[Please click here to view the page](https://logmodia.github.io/flexbox-minesweeper/)
+
 ## The technologies used are:
 
 1. HTML
