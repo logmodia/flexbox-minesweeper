@@ -1,0 +1,62 @@
+div.main_container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+div.items_container {
+    background-color: grey;
+    border: 5px outset rgb(194, 192, 192);
+    width: 400px;
+    height: 400px;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+
+div.item_box {
+    background-color:rgb(218, 218, 218);
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 2px dashed rgb(0, 0, 0);
+    
+    width: 40px;
+    height: 40px;
+
+    flex: auto;
+}
+
+div.item_content_center {
+    display: table;
+    text-align: center;
+}
+
+span.item_content_middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.blue_color {
+    color: blue;
+}
+
+div.red_color {
+    color:red;
+    
+}
+
+div.green_color {
+    color:green;
+}
+
+div.bomb_item {
+    background-image: url(./icone_bomb1.png);
+    background-size:cover;
+}
+
+div.hidden_number, div.hidden_empty, div.hidden_bomb {
+    border: 4px solid gray;
+    border-style: inset;
+}
