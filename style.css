@@ -1,11 +1,19 @@
+body {
+    padding-top: 100px;
+}
+
 div.main_container {
-    width: 600px;
+    width: 465px;
     margin: 0 auto;
+    padding: 5px;
+    background-color: grey;
+    border: 10px solid rgb(160, 158, 158);
+    
 }
 
 div.items_container {
     background-color: grey;
-    border: 5px outset rgb(194, 192, 192);
+    border: 10px outset rgb(194, 192, 192);
     width: 450px;
     height: 438px;
     

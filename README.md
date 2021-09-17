@@ -29,13 +29,13 @@ The goal of this project is to create a web page that reproduces the graphical i
 I applied the flexbox properties to organize the block layout
 
 
-    ** In items_container **
+    **In items_container**
 
         display: flex;
         flex-wrap: wrap;
         align-content: flex-start;
    
-    ** In item_box **
+    **In item_box**
 
         flex-grow: 1;
 
