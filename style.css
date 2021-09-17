@@ -6,8 +6,8 @@ div.main_container {
 div.items_container {
     background-color: grey;
     border: 5px outset rgb(194, 192, 192);
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 438px;
     
 
     display: flex;
@@ -17,15 +17,16 @@ div.items_container {
 }
 
 div.item_box {
-    background-color:rgb(218, 218, 218);
+    background-color: rgb(247, 243, 243);
+   
     font-size: xx-large;
     font-weight: bolder;
     border: 2px dashed rgb(0, 0, 0);
     
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 
-    flex: auto;
+    flex-grow: 1;
 }
 
 div.item_content_center {
@@ -56,7 +57,35 @@ div.bomb_item {
     background-size:cover;
 }
 
+div.hidden_bomb {
+    background-image: none;
+}
+
 div.hidden_number, div.hidden_empty, div.hidden_bomb {
-    border: 4px solid gray;
+    
+    background-color:rgb(218, 218, 218);
+    border: 3px solid rgb(247, 243, 243);
     border-style: inset;
+    color: rgb(218, 218, 218);
+}
+
+div.blue_color:hover {
+    color: blue;
+}
+
+div.green_color:hover {
+    color: green;
+}
+
+div.red_color:hover {
+    color: red;
+}
+
+div.hidden_empty:hover {
+    background-color: rgb(247, 243, 243);
+}
+
+div.hidden_bomb:hover {
+    background-image: url(./icone_bomb1.png);
+    background-size:cover;
 }
