@@ -16,7 +16,6 @@ div.items_container {
     border: 10px outset rgb(194, 192, 192);
     width: 450px;
     height: 438px;
-    
 
     display: flex;
     flex-wrap: wrap;
